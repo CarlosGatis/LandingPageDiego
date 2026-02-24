@@ -16,15 +16,19 @@
       </a>
     </div>
 
-    <nav class="menu">
-      <a href="#home" class="active">Home</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#pratica">Na prática</a>
-      <a href="#empresa">Empresa</a>
-      <a href="#produtos">Produtos</a>
-      <a href="#vantagens">Vantagens</a>
-      <a href="#contato">Contato</a>
-    </nav>
+    <!-- Menu compacto (3 pontinhos) -->
+    <details class="menu-dropdown">
+      <summary class="menu-trigger" aria-label="Abrir menu de navegação">&#8943;</summary>
+      <nav class="menu menu-panel" aria-label="Navegação principal">
+        <a href="#home" class="active">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#pratica">Na prática</a>
+        <a href="#empresa">Empresa</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#vantagens">Vantagens</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </details>
   </div>
 </header>
 
@@ -44,40 +48,38 @@
   </div>
 </section>
 
-<section class="section bg-light" id="sobre">
-  <div class="container">
-    <div class="panel panel--green">
-      <div class="sobre-content">
+<section class="section sobre-degrade" id="sobre">
+  <div class="container sobre-wrap">
+    <img src="img/sobre.jpg" class="sobre-img-desktop" alt="Sobre">
+    <div class="sobre-texto">
+      <br><br><br>
+      <h2>SOBRE MIM</h2>
 
-        <div class="sobre-texto">
-          <h2>Sobre mim</h2>
-          <p>
-            Sou Representante Comercial da Cartonagem Batistense e atuo como consultor estratégico no desenvolvimento
-            de soluções inteligentes em embalagens industriais de papel cartão e micro ondulado.
-          </p>
-          <p>
-            Atuo desde 2012 com vendas na empresa. Meu método de trabalho é consultivo, técnico e orientado a resultados:
-            cada projeto começa por uma imersão no cenário do cliente, do produto, logística, custos, riscos e objetivos
-            de mercado para então desenvolver uma solução de embalagem sob medida, capaz de reduzir desperdícios,
-            otimizar processos e elevar a percepção de valor da marca.
-          </p>
+      <p>
+        Sou Representante Comercial da Cartonagem Batistense e atuo como consultor estratégico no desenvolvimento
+        de soluções inteligentes em embalagens industriais de papel cartão e micro ondulado.
+      </p>
 
-          <div class="list-box">
-            <h3><u>Formação</u></h3>
-            <ul class="list">
-              <br>
-              <li>Administração e Administração de Empresas (2015)</li>
-              <br>
-              <li>Administração e Negócios (2018)</li>
-              <br>
-              <li>Pós-graduação em Gestão de Negócios (2018)</li>
-            </ul>
-          </div>
-        </div>
+      <p>
+        Atuo desde 2012 com vendas na empresa. Meu método de trabalho é consultivo, técnico e orientado a resultados:
+        cada projeto começa por uma imersão no cenário do cliente, do produto, logística, custos, riscos e objetivos
+        de mercado para então desenvolver uma solução de embalagem sob medida, capaz de reduzir desperdícios,
+        otimizar processos e elevar a percepção de valor da marca.
+      </p>
 
-        <div class="sobre-imagem">
-          <img src="img/sobre.jpg" alt="Diego Pimentel">
-        </div>
+      <div class="list-box">
+        <h3><u>Formação</u></h3>
+        <ul class="list">
+          <li>Administração e Administração de Empresas (2015)</li>
+          <li>Administração e Negócios (2018)</li>
+          <li>Pós-graduação em Gestão de Negócios (2018)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+       
 
       </div>
     </div>
@@ -89,10 +91,11 @@
     <h2 class="title-light">Como é o trabalho na prática</h2>
 
     <div class="cards cards--dark">
-      
+
       <article class="card card--dark">
+      <img src="img/icons/desenvolvimento.png" class="card-icon" alt="">
         <i class="fa-solid fa-gears card-icon"></i>
-        <h1>Desenvolvimento técnico sob medida</h1>
+        <h1>DESENVOLVIMENTO TÉCNICO SOB MEDIDA</h1>
         <h3>
           Cada embalagem é projetada para atender às necessidades reais do cliente,
           considerando proteção, empilhamento, transporte, apresentação e custo.
@@ -100,8 +103,9 @@
       </article>
 
       <article class="card card--dark">
+        <img src="img/icons/relacionamento.png" class="card-icon" alt="">
         <i class="fa-solid fa-handshake card-icon"></i>
-        <h1>Relacionamento de longo prazo</h1>
+        <h1>RELACIONAMENTO DE LONGO PRAZO</h1>
         <h3>
           O foco não é a venda pontual, mas a construção de parcerias sólidas,
           duradouras e lucrativas para ambos os lados.
@@ -109,8 +113,9 @@
       </article>
 
       <article class="card card--dark">
+          <img src="img/icons/acompanhamentoContinuo.png" class="card-icon" alt="">
         <i class="fa-solid fa-chart-line card-icon"></i>
-        <h1>Acompanhamento contínuo</h1>
+        <h1>ACOMPANHAMENTO CONTÍNUO</h1>
         <h3>
           Após a implantação, há acompanhamento de desempenho,
           resultados e oportunidades de melhoria contínua.
@@ -160,7 +165,7 @@
 
     <div class="grid-2">
       <div class="box box--dark">
-        <h3>Materiais utilizados</h3>
+        <h3>MATERIAIS UTILIZADOS</h3>
         <ul class="list list--light">
         <br>
           <li>Papel cartão Duplex, Triplex e Kraft</li>
@@ -170,7 +175,7 @@
       </div>
 
       <div class="box box--dark">
-        <h3>Tratamentos e acabamentos</h3>
+        <h3>TRATAMENTOS E ACABAMENTOS</h3>
         <ul class="list list--light">
             <br>
           <li>Impressão offset</li>
@@ -185,7 +190,7 @@
     </div>
 
     <div class="carousel">
-     <button class="carousel-btn carousel-btn--left" aria-label="Anterior">‹</button>
+      <button class="carousel-btn carousel-btn--left" aria-label="Anterior">‹</button>
 
       <div class="carousel-viewport">
         <div class="carousel-track" id="carouselTrack">
@@ -204,7 +209,6 @@
           <img src="img/galeria/13.png" alt="">
           <img src="img/galeria/14.png" alt="">
           <img src="img/galeria/15.png" alt="">
-          <img src="img/galeria/16.png" alt="">
           <img src="img/galeria/17.png" alt="">
           <img src="img/galeria/18.png" alt="">
           <img src="img/galeria/19.png" alt="">
@@ -221,9 +225,10 @@
           <img src="img/galeria/31.png" alt="">
           <img src="img/galeria/32.png" alt="">
           <img src="img/galeria/33.png" alt="">
+          <img src="img/galeria/34.png" alt="">
         </div>
       </div>
-  
+
       <button class="carousel-btn carousel-btn--right" aria-label="Próximo">›</button>
     </div>
   </div>
@@ -234,32 +239,45 @@
     <div class="panel panel--blue">
       <h2 class="title-light">Vantagens do atendimento</h2>
 
+      
       <div class="cards cards--blue">
         <article class="card card--blue">
+          <img src="img/icons/tecnico.png" class="vantagem-icon">
           <h3>Atendimento consultivo</h3>
           <p>Menos erros, menos retrabalho, mais agilidade e rentabilidade.</p>
         </article>
 
         <article class="card card--blue">
+          <img src="img/icons/comunicacao.png" class="vantagem-icon">
           <h3>Comunicação direta</h3>
           <p>Processos mais ágeis e maior segurança para sua equipe.</p>
         </article>
 
         <article class="card card--blue">
+          <img src="img/icons/desenvolvimentoMedida.png" class="vantagem-icon">
           <h3>Desenvolvimento sob medida</h3>
           <p>Redução de custos, mais proteção e eficiência logística.</p>
         </article>
 
         <article class="card card--blue">
+          <img src="img/icons/foco.png" class="vantagem-icon">
           <h3>Foco em resultado</h3>
           <p>Crescimento sustentável e vantagem competitiva.</p>
         </article>
 
         <article class="card card--blue">
+          <img src="img/icons/empresa.png" class="vantagem-icon">
           <h3>Estrutura sólida</h3>
           <p>Tranquilidade para focar no que realmente importa.</p>
         </article>
+
+        <article class="card card--blue">
+          <img src="img/icons/suporte.png" class="vantagem-icon">
+          <h3>Suporte técnico</h3>
+          <p>Acompanhamento profissional em todas as etapas.</p>
+        </article>
       </div>
+
     </div>
   </div>
 </section>
@@ -322,8 +340,7 @@
 <script src="js/scrollspy.js"></script>
 <script src="js/carousel.js"></script>
 <script src="js/lead.js"></script>
+<script src="js/menu.js"></script>
 
 </body>
 </html>
-
-
